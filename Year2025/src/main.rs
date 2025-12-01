@@ -1,4 +1,3 @@
-use crate::Error::NotImplemented;
 use crate::cli::Cli;
 use clap::Parser;
 use thiserror::Error;
@@ -16,16 +15,10 @@ pub fn main() {
         std::process::exit(1);
     });
 
-    let result: Result<String, Error> = match (args.day, args.part) {
-        (1, 1) => Err(NotImplemented),
-        (day, _) => Err(Error::InvalidDay(day)),
-    };
+    let result = days::run(input, args.day, args.part);
 
     match result {
-        Ok(output) => {
-            let header = format!("--- Day {}. Part {} ---", args.day, args.part);
-            println!("{}\n\n{}", header, output)
-        },
+        Ok(output) => println!("{}", output),
         Err(e) => {
             eprintln!("Error: {}", e);
             std::process::exit(1);
@@ -49,4 +42,5 @@ pub enum Error {
 }
 
 mod cli;
+mod days;
 mod io;
