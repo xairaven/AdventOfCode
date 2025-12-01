@@ -17,3 +17,6 @@ workspace = true
 
 [dependencies]
 common = { path = "../common" }
+
+clap = { version = "4.5.53", features = ["derive"] }
+thiserror = "2.0.17"
