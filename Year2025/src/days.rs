@@ -3,6 +3,29 @@ use crate::Error;
 pub fn run(input: String, day: u8, part: u8) -> Result<String, Error> {
     let result: Result<String, Error> = match (day, part) {
         (1, 1) => Err(Error::NotImplemented),
+        (1, 2)
+        | (2, 1)
+        | (2, 2)
+        | (3, 1)
+        | (3, 2)
+        | (4, 1)
+        | (4, 2)
+        | (5, 1)
+        | (5, 2)
+        | (6, 1)
+        | (6, 2)
+        | (7, 1)
+        | (7, 2)
+        | (8, 1)
+        | (8, 2)
+        | (9, 1)
+        | (9, 2)
+        | (10, 1)
+        | (10, 2)
+        | (11, 1)
+        | (11, 2)
+        | (12, 1)
+        | (12, 2) => Err(Error::NotImplemented),
         (day, _) => Err(Error::InvalidDay(day)),
     };
 
