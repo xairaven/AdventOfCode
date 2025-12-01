@@ -1,4 +1,4 @@
-use crate::io;
+use crate::{days, io};
 use thiserror::Error;
 
 #[derive(Debug, Error)]
@@ -14,4 +14,7 @@ pub enum Error {
 
     #[error("Day is not implemented yet")]
     NotImplemented,
+
+    #[error("Day 01. {0}")]
+    Day01(#[from] days::day01::errors::Day01Error),
 }

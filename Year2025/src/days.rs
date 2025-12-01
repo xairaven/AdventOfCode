@@ -2,7 +2,7 @@ use crate::Error;
 
 pub fn run(input: String, day: u8, part: u8) -> Result<String, Error> {
     let result: Result<String, Error> = match (day, part) {
-        (1, 1) => Err(Error::NotImplemented),
+        (1, 1) => day01::part1::process(input),
         (1, 2)
         | (2, 1)
         | (2, 2)
@@ -37,4 +37,7 @@ pub fn run(input: String, day: u8, part: u8) -> Result<String, Error> {
     Ok(formatted_output)
 }
 
-pub mod day_01_1; // 01.12.2025
+pub mod day01 {
+    pub mod errors;
+    pub mod part1; // 01.12.2025
+}
