@@ -29,11 +29,6 @@ pub fn process(input: String) -> Result<String, Error> {
             position = (100 - (-position % 100)) % 100;
         }
 
-        println!(
-            "Direction: {:?}, Step: {}, Current Position: {}",
-            direction, step, position
-        );
-
         if position == 0 {
             zero_counter += 1;
         }
