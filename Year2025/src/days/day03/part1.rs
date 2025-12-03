@@ -1,6 +1,8 @@
 use crate::days::day03::errors::Day03Error;
 use crate::errors::Error;
 
+// Answer: 17095
+
 pub fn process(input: String) -> Result<String, Error> {
     let mut sum = 0;
 

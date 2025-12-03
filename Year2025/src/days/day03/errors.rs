@@ -7,4 +7,7 @@ pub enum Day03Error {
 
     #[error("Failed to convert joltage: {0}")]
     FailedToConvertJoltage(#[from] std::num::ParseIntError),
+
+    #[error("Failed to find answer")]
+    ValueNotFound,
 }
