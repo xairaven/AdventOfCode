@@ -26,4 +26,7 @@ pub enum Error {
 
     #[error("Day 04. {0}")]
     Day04(#[from] days::day04::errors::Day04Error),
+
+    #[error("Day 05. {0}")]
+    Day05(#[from] days::day05::errors::Day05Error),
 }
