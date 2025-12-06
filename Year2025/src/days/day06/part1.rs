@@ -1,7 +1,7 @@
 use crate::days::day06::errors::Day06Error;
 use crate::errors::Error;
 
-// Answer: ?
+// Answer: 7644505810277
 
 pub fn process(input: String) -> Result<String, Error> {
     let input = Input::try_from(input.as_str())?;

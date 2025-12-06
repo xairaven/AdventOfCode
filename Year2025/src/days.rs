@@ -13,8 +13,8 @@ pub fn run(input: String, day: u8, part: u8) -> Result<String, Error> {
         (5, 1) => day05::part1::process(input),
         (5, 2) => day05::part2::process(input),
         (6, 1) => day06::part1::process(input),
-        (6, 2)
-        | (7, 1)
+        (6, 2) => day06::part2::process(input),
+        (7, 1)
         | (7, 2)
         | (8, 1)
         | (8, 2)
@@ -65,4 +65,5 @@ pub mod day05 {
 pub mod day06 {
     pub mod errors;
     pub mod part1; // 06.12.2025
+    pub mod part2; // 06.12.2025
 }
