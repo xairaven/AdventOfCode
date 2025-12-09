@@ -7,4 +7,7 @@ pub enum Day09Error {
 
     #[error("Invalid coordinate value: {0}")]
     InvalidCoordinate(#[from] std::num::ParseIntError),
+
+    #[error("Missing coordinate in set: {0}")]
+    MissingCoordinateInSet(usize),
 }
