@@ -29,7 +29,7 @@ You can run solutions through shell script, located in year folder.
 
 | Year | Stars | Languages | Notes       |
 |------|-------|-----------|-------------|
-| 2025 | 19/24 | Rust      | In Progress |
+| 2025 | 20/24 | Rust      | In Progress |
 
 ## ⚖️ Disclaimer
 
