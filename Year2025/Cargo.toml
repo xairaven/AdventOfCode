@@ -21,3 +21,4 @@ common = { path = "../common" }
 clap = { version = "4.5.53", features = ["derive"] }
 itertools = "0.14.0"
 thiserror = "2.0.17"
+z3 = "0.19.6"
