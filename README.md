@@ -25,11 +25,11 @@ AdventOfCode/
 
 You can run solutions through shell script, located in year folder.
 
-## Progress
+## 🚩 Progress
 
-| Year | Stars | Languages | Notes       |
-|------|-------|-----------|-------------|
-| 2025 | 20/24 | Rust      | In Progress |
+| Year | Stars | Languages | Notes                     |
+|------|-------|-----------|---------------------------|
+| 2025 | 22/24 | Rust      | In Progress *(Day 11/12)* |
 
 ## ⚖️ Disclaimer
 
