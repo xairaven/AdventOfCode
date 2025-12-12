@@ -27,9 +27,9 @@ You can run solutions through shell script, located in year folder.
 
 ## 🚩 Progress
 
-| Year | Stars | Languages | Notes                     |
-|------|-------|-----------|---------------------------|
-| 2025 | 22/24 | Rust      | In Progress *(Day 11/12)* |
+| Year | Stars | Languages | Notes |
+|------|-------|-----------|-------|
+| 2025 | 24/24 | Rust      | Done! |
 
 ## ⚖️ Disclaimer
 
