@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = ["Alex Kovalov <alexkovalevkpi@gmail.com>"]
 
 edition = "2024"
-rust-version = "1.91.1"
+rust-version = "1.92"
 
 categories = ["algorithms"]
 keywords = ["advent-of-code"]
@@ -16,8 +16,6 @@ repository = "https://github.com/xairaven/AdventOfCode"
 workspace = true
 
 [dependencies]
-common = { path = "../common" }
-
 clap = { version = "4.5.53", features = ["derive"] }
 itertools = "0.14.0"
 thiserror = "2.0.17"

@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = ["common", "Year2025"]
+members = ["Year2025"]
 
 [profile.release]
 lto = true
