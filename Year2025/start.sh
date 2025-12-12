@@ -2,4 +2,4 @@
 
 FILE="../target/debug/Year2025"
 cargo build --bin Year2025
-$FILE --day 10 --part 1
+$FILE --day 1 --part 1
